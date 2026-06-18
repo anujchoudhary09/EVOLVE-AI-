@@ -31,6 +31,9 @@ Some features are fully implemented while others are being improved and connecte
 
 https://evolveaiweb.netlify.app
 
+## Screenshots
+
+Add screenshots here.
 
 ## Learning Goals
 

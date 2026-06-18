@@ -1,0 +1,6 @@
+{
+  "name": "Evolve AI",
+  "description": "A premium AI-powered personal transformation website that guides you to achieve your future successful self with customized daily missions, roadmaps, and chat-based motivation from your future self.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
