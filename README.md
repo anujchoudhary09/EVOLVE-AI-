@@ -1,7 +1,9 @@
 Evolve AI
+
 Evolve AI is a futuristic goal-tracking and self-improvement web app that helps users stay motivated by interacting with their future successful self.
 
 Features
+
 Modern dark-themed UI
 Goal onboarding flow
 Dashboard with progress tracking
