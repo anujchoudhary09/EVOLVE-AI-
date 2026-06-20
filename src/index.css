@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-neutral-950: #0D1117;
+  --color-neutral-900: #161B22;
+  --color-neutral-800: #30363D;
+  --color-neutral-700: #444c56;
+  --color-purple-500: #a855f7;
+  --color-cyan-400: #22d3ee;
+  --color-cyan-500: #22d3ee;
+}
+
+/* Custom scrollbar to look sleek in dark mode */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0D1117;
+}
+::-webkit-scrollbar-thumb {
+  background: #21262D;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #30363D;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(139, 92, 246, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(139, 92, 246, 0.4);
+  }
+}
+
+.glow-btn {
+  animation: pulse-glow 3s infinite;
+}
+
+/* Typwriter cursor effect */
+@keyframes blink-cursor {
+  from, to { border-color: transparent }
+  50% { border-color: #a78bfa; }
+}
+
+.typewriter-cursor {
+  border-right: 2px solid #a78bfa;
+  animation: blink-cursor .75s step-end infinite;
+}
+
+/* Feedback button styles */
+.fb-type-btn {
+  padding: 7px 14px;
+  border-radius: 20px;
+  background: #161B22;
+  border: 1.5px solid #30363D;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  transition: all .2s;
+}
+
+.fb-type-btn.active {
+  background: rgba(168, 85, 247, 0.15);
+  border-color: #A855F7;
+  color: #A855F7;
+}
+
+
