@@ -13,6 +13,16 @@ Some features are fully implemented while others are being improved and connecte
 
 ## Screenshots 
 
+![App Screenshot1](Screenshot_20260618-195217~2.png)
+
+![App Screenshot2](Screenshot_20260618-195231~2.png)
+
+![App Screenshot3](screenshots/Screenshot_20260618-195252~2.png)
+
+![App Screenshot4](screenshots/Screenshot_20260618-195307~2.png)
+
+![App Screenshot5](screenshots/Screenshot_20260618-195320~2.png).
+
 ## Learning Goals This project was created to learn:
 
 ## Frontend development 
